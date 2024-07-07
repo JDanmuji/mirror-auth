@@ -1,0 +1,84 @@
+# Java 관련
+*.class
+*.jar
+*.war
+*.ear
+
+# 배시 스크립트
+*.sh
+
+# 컴파일 로그
+mvnw
+mvnw.cmd
+.mvnd
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+*.log
+
+# 스프링 부트 설정
+spring-boot-configuration-processor/
+
+# STS (Spring Tool Suite) / IntelliJ IDEA
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.bak
+*.swp
+*~
+# custom folder
+*build/
+# End of https://www.toptal.com/developers/gitignore/api/java
+
+# Mac OS 관련
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 볼륨 아이콘
+.Icon
+._*
+
+# Thumbnails
+._.DS_Store
+._*
+
+# Mac 속성 파일
+.Spotlight-V100
+.Trashes
+
+# Gradle 관련
+.gradle/
+build/
+!gradle-wrapper.jar
+# 관련 파일
+.gradle/
+build/
+.gradle/cache/
+.gradle/gradle-app.setting
+.gradle/gradle.log
+.gradle/gradle-wrapper.log
+# gradle-wrapper 관련 파일
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
